@@ -1,5 +1,6 @@
 import Features from "./features";
 import { FaArrowRight } from "react-icons/fa6";
+
 export default function Main(){
     return(
       

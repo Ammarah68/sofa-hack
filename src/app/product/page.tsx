@@ -1,7 +1,5 @@
-import { FaArrowRight } from "react-icons/fa6";
 import React from "react";
 import { BsCartPlusFill } from "react-icons/bs";
-import Link from "next/link";
 
 export default function Features() {
   return (
@@ -168,11 +166,11 @@ export default function Features() {
 
   {/* Product Card 2 */}
   <div className="rounded-lg font-[sans-serif]  p-4">
-    <Link href="/pinksofa"><img
+    <img
       src={"/Image.png"}
       alt="Library Stool Chair"
       className="w-full h-[200px] rounded-lg object-cover"
-    /></Link>
+    />
     <p className="mt-2 text-sm text-gray-600 leading-relaxed hover:text-teal-600">
       Library Stool Chair
     </p>
