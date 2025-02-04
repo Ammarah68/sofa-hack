@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsCartPlusFill } from "react-icons/bs";
 
@@ -22,12 +23,12 @@ export default function Features() {
       </p>
       <div className="mt-4 flex items-center justify-between">
         <h3 className="text-xl text-gray-800 font-bold">$20</h3>
-        <button
+        <Link href="/cart" target="_blank"><button
           type="button"
           className="px-3 py-2 rounded-lg text-white text-sm tracking-wider bg-blue-600 hover:bg-blue-700 outline-none flex items-center"
         >
           <BsCartPlusFill size={20} />
-        </button>
+        </button></Link>
       </div>
     </div>
 

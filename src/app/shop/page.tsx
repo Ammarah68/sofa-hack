@@ -1,11 +1,11 @@
 import React from "react";
 import { BsCartPlusFill } from "react-icons/bs";
-
+import Link from "next/link";
 
 
 export default function PinkSofa() {
     return (
-        <div className="justify-center items-center grid grid-cols-2">
+        <div className="justify-center text-sm sm:text-base md:text-lg lg:text-xl items-center grid grid-cols-2">
           <div className="rounded-lg font-[sans-serif]">
         <img
           src={"/Image.png"}
@@ -18,12 +18,12 @@ export default function PinkSofa() {
 <h1 className="flex font-bold  text-2xl">Library Stool Chair</h1>
 <p className=" leading-relaxed text-gray-500 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vel rem voluptates nihil ea est, necessitatibus in mollitia quod sit atque, facere magnam cum sunt libero delectus aliquid nulla quo!</p>
 <div>
-<button
+<Link href="/cart" target="_blank"><button
           type="button"
           className="px-3 py-2 rounded-lg text-white text-sm tracking-wider bg-blue-600 hover:bg-blue-700 outline-none flex items-center"
         >
           <BsCartPlusFill size={20} />Add To Card
-        </button>
+        </button></Link>
 </div>
         </div>
 

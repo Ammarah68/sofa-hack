@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-      <div className="p-4 mx-auto max-w-lg bg-white font-[sans-serif] rounded-lg shadow-md">
+      <div className="p-4 mx-auto max-w-lg bg-white font-[sans-serif] rounded-lg shadow-md text-sm sm:text-base md:text-lg lg:text-xl">
         <h1 className="text-3xl text-gray-800 font-extrabold text-center">
           Contact Us
         </h1>

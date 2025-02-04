@@ -4,9 +4,9 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function Main(){
     return(
       
-<div>
+<div className="text-sm sm:text-base md:text-lg lg:text-xl">
 
-<div className="flex justify-center items-center w-[800px] h-[500px] bg-slate-300 ml-36">
+<div className="flex justify-center items-center w-[800px] h-[500px] bg-slate-300 ml-36 text-sm sm:text-base md:text-lg lg:text-xl">
 <div className="bg-slate-300 " >
   <h1 className="absolute  w-[400px] h-[100px] left-[200px] top-[267px] font-inter font-bold text-[40px] leading-[110%] capitalize text-[#272343]">Best Furniture Collection for your interior.
   </h1>
